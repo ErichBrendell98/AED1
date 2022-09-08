@@ -1,0 +1,26 @@
+(*) Lista Linear:
+
+    Estrutura de dados na qual cada elemento é precedido por um elemento e sucedido por outro 
+(exceto o primeiro que não tem predecessor e o último que não tem sucessor).
+    Os elementos estão em uma dada ordem (por exemplo, a ordem de inclusão ou ordenados por 
+uma chave).
+
+    -> Lista Linear Sequencial:
+        É uma lista linear na qual a ordem lógica dos elementos (a ordem "vista" pelo usuário)
+    é a mesma ordem física (em memória principal) dos elementos. Isto é, elementos vizinhos na
+    lista estarão em posições vizinhas de memória.
+
+        -> Modelagem:
+            Modelaremos usando um arranjo de registros;
+            Registros conterão as informações de interesse do usuário;
+            Nosso arranjo terá um tamanho fixo e controlaremos o número de elementos com uma 
+        variável adicional.
+
+        -> Funções de Gerenciamento:
+            1 - Inicializar a estrutura;
+            2 - Retornar a quantidade de elementos válidos;
+            3 - Exibir os elementos da estrutura;
+            4 - Buscar por um elemento na estrutura;
+            5 - Inserir elementos na estrutua;
+            6 - Excluir elementos da estrutura;
+            7 - Reinicializar a estrutura;
